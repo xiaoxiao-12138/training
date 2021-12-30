@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-home" />
+        <module name="service-learning" />
+        <module name="service-oss" />
+        <module name="service-plan" />
+        <module name="service-qa" />
+        <module name="service-ucenter" />
+        <module name="service-video" />
+        <module name="training-common" />
+        <module name="training-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="service-home" target="1.8" />
+      <module name="service-learning" target="1.8" />
+      <module name="service-oss" target="1.8" />
+      <module name="service-plan" target="1.8" />
+      <module name="service-qa" target="1.8" />
+      <module name="service-ucenter" target="1.8" />
+      <module name="service-video" target="1.8" />
+      <module name="training" target="1.8" />
+      <module name="training-common" target="1.8" />
+      <module name="training-gateway" target="1.8" />
+      <module name="training-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

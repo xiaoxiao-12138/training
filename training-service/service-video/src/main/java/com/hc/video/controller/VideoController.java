@@ -41,7 +41,9 @@ public class VideoController {
     @GetMapping("/playAuth/{videoSourceId}")
     @ApiOperation("获取视频播放凭证")
     public TrainingResult getPlayAuthById(@PathVariable(value = "videoSourceId") String videoSourceId) {
+        System.out.println("videoSourceId的值是============" + videoSourceId);
         String auth = videoService.getPlayAuthById(videoSourceId);
+        System.out.println("auth的值是===========" + auth);
         return TrainingResult.ok().data("playAuth", auth);
     }
 

@@ -11,7 +11,7 @@
 
     <artifactId>service-video</artifactId>
 
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>sonatype-nexus-staging</id>
             <name>Sonatype Nexus Staging</name>
@@ -23,7 +23,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <dependencies>
         <dependency>
@@ -46,13 +46,6 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.62</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun.hc</groupId>
-            <artifactId>vod-upload</artifactId>
-            <version>1.4.14</version>
-            <scope>system</scope>
-            <systemPath>E:/学习笔记/毕设/training/training/lib/aliyun-java-vod-upload-1.4.14.jar</systemPath>
         </dependency>
 
     </dependencies>

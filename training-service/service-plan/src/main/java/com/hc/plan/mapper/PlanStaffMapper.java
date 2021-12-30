@@ -25,7 +25,7 @@ public interface PlanStaffMapper extends BaseMapper<PlanStaff> {
      * @param staffId 职工id
      * @return 分页对象
      */
-    IPage<PlanFrontVo> getPlanFrontVoPage(IPage<PlanFrontVo> page, String staffId);
+    IPage<PlanFrontVo> getPlanFrontVoPage(@Param("voPage")IPage<PlanFrontVo> page, @Param("staffId")String staffId);
 
     /**
      * 分页查询所有职工参与的培训计划

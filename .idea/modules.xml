@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-home/service-home.iml" filepath="$PROJECT_DIR$/training-service/service-home/service-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-learning/service-learning.iml" filepath="$PROJECT_DIR$/training-service/service-learning/service-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/training-service/service-oss/service-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-plan/service-plan.iml" filepath="$PROJECT_DIR$/training-service/service-plan/service-plan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-qa/service-qa.iml" filepath="$PROJECT_DIR$/training-service/service-qa/service-qa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-ucenter/service-ucenter.iml" filepath="$PROJECT_DIR$/training-service/service-ucenter/service-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/service-video/service-video.iml" filepath="$PROJECT_DIR$/training-service/service-video/service-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training.iml" filepath="$PROJECT_DIR$/training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-common/training-common.iml" filepath="$PROJECT_DIR$/training-common/training-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-gateway/training-gateway.iml" filepath="$PROJECT_DIR$/training-gateway/training-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-service/training-service.iml" filepath="$PROJECT_DIR$/training-service/training-service.iml" />
+    </modules>
+  </component>
+</project>

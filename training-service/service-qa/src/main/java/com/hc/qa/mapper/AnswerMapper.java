@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.hc.qa.entity.Answer;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.hc.qa.entity.Question;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -22,6 +23,6 @@ public interface AnswerMapper extends BaseMapper<Answer> {
      * @param staffId 职工id
      * @return 分页对象
      */
-    IPage<Question> getMyAnswer(IPage<Question> questionIPage, String staffId);
+    IPage<Question> getMyAnswer(IPage<Question> questionIPage, @Param("staffId")String staffId);
 
 }

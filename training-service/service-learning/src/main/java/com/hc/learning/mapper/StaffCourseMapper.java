@@ -28,5 +28,5 @@ public interface StaffCourseMapper extends BaseMapper<StaffCourse> {
      * @param staffId 职工id
      * @return JoinCourseVo集合
      */
-    IPage<JoinCourseVo> getJoinCourses(IPage<JoinCourseVo> page, String staffId);
+    IPage<JoinCourseVo> getJoinCourses(IPage<JoinCourseVo> page, @Param("staffId")String staffId);
 }

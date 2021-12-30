@@ -1,8 +1,11 @@
 package com.hc.learning.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hc.common.exception.TrainingException;
+import com.hc.learning.entity.Chapter;
 import com.hc.learning.entity.Course;
 import com.hc.learning.entity.StaffCourse;
 import com.hc.learning.entity.vo.CoursePublishVo;
@@ -147,7 +150,11 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
         StaffCourse staffCourse = new StaffCourse();
         staffCourse.setCourseId(courseId);
         staffCourse.setStaffId(staffId);
-        staffCourse.setAllVideoNum(course.getLessonNum());
+        QueryWrapper<Chapter> wrapper = new QueryWrapper<>();
+        wrapper.eq("course_id", courseId);
+        //设置课程中所有视频的数量
+        staffCourse.setAllVideoNum(chapterService.count(wrapper));
+        //staffCourse.setAllVideoNum(course.getLessonNum());
         boolean success = staffCourseService.save(staffCourse);
         return courseLine > 0 && success;
     }
