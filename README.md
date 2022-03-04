@@ -1,13 +1,15 @@
 ### 项目介绍
 
 #### 背景介绍
-回馈github，我也把毕设放上来吧，给没有思路写毕设的同学一个思路，自己也是忙于实习没时间写毕设，最后也是拿出来点零碎时间写了下，服务设计和表设计都存在问题，职责划分不太明确，需要注意一下，salute~
+该项目采用了微服务分布式技术架构，前后端分离开发。
+为企业提供了一个职工的在线培训网站，其中培训课件可采用mp4视频、Word、PPT、Excel等文件格式。
+管理员能在后台发布新的培训课程、培训计划管理、以及对职工的培训情况进行反馈等操作。
 
-毕设原型：根据b站视频教程所写，链接：https://www.bilibili.com/video/BV1dQ4y1A75e
+前端前台代码地址：https://github.com/xiaoxiao-12138/training-front
 
-前端代码地址：https://github.com/hczs/training-front
+前端后台代码地址：https://github.com/xiaoxiao-12138/training-admin
 
-效果展示（服务器已到期，请下拉查看截图）：http://81.70.19.46/
+效果展示（请下拉查看截图）：http://120.25.144.146:3000/
 #### 开发环境
 
 jdk1.8+MySQL5.7+maven3.6.3
